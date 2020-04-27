@@ -30,7 +30,7 @@ header .header-icons-container {
 }
 
 header .header-icons-container .icons {
-    width: 400px;
+    width: 300px;
     height: auto;
     display: flex;
     justify-items: flex-end;
@@ -39,3 +39,60 @@ header .header-icons-container .icons {
     justify-self: end;
     margin-right: 50px;
 }
+
+    header .icons span {
+        color: white;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 90px;
+    }
+
+    nav .nav-logo-container {
+        margin-left: 50px;
+    }
+
+    nav .nav-logo-container img {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    nav .profile-link {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+
+    nav .profile-link a {
+        color: black;
+        border-bottom:  1px solid black;
+    }
+
+    .home-main {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        height: 100%;
+        background-image: url("/assets/img/Cover.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-main section {
+        display: grid;
+        grid-column: 2;
+        justify-items: center;
+        height: 350px;
+        margin-top: 80px;
+    }
+
+    .home-main-text {
+        font-size: 30px;
+        font-weight: 700px;
+        letter-spacing: 10px;
+        color: black;
+        text-align: center;
+    }
