@@ -4,6 +4,9 @@ body {
     margin: 0;
     font-family: Roboto;
     padding: 0;
+
+}
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -111,4 +114,31 @@ header .header-icons-container .icons {
         letter-spacing: 10px;
         color: white;
         text-align: center;
+    }
+
+    .blogs-main {
+        display: grid;
+    }
+
+    .blogs-news-container {
+        background-color: #e6e9ed;
+        padding: 0 50px 40px;
+    }
+
+    .blogs-main-new {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .blogs-news-img-container {
+        grid-column: 1;
+    }
+    .blogs-news-container img {
+        width: 85%;
+    }
+    .blogs-news-info-container {
+        grid-column: 2;
+    }
+    .blogs-news-info-container p {
+        margin-bottom: 35px;
     }
